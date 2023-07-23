@@ -24,16 +24,14 @@ install(
           constellationdisplayform.h
           displayform.h
           edit_box_msg.h
-          eye_sink_c.h
-          eye_sink_f.h
+          eye_sink.h
           eyecontrolpanel.h
           eyedisplayform.h
           eyedisplaysform.h
           form_menus.h
           fosphor_display.h
           fosphor_formatter.h
-          freq_sink_c.h
-          freq_sink_f.h
+          freq_sink.h
           freqcontrolpanel.h
           freqdisplayform.h
           histogram_sink_f.h
@@ -43,14 +41,11 @@ install(
           plot_raster.h
           plot_waterfall.h
           qtgui_types.h
-          sink_c.h
-          sink_f.h
+          sink.h
           spectrumUpdateEvents.h
           timeRasterGlobalData.h
-          time_raster_sink_b.h
-          time_raster_sink_f.h
-          time_sink_c.h
-          time_sink_f.h
+          time_raster_sink.h
+          time_sink.h
           timecontrolpanel.h
           timedisplayform.h
           timerasterdisplayform.h
@@ -59,7 +54,6 @@ install(
           vector_sink_f.h
           vectordisplayform.h
           waterfallGlobalData.h
-          waterfall_sink_c.h
-          waterfall_sink_f.h
+          waterfall_sink.h
           waterfalldisplayform.h
     DESTINATION ${GR_INCLUDE_DIR}/gnuradio/qtgui)
